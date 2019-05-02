@@ -1,0 +1,27 @@
+$primary: #8ed6fb;
+$bgc: #1b79bf;
+$ns: 10px;
+$wh: #ffffff;
+
+@import '~bootstrap/scss/bootstrap';
+
+body {
+  background-color: $bgc;
+  h1 {
+    color: $wh;
+  }
+}
+img {
+  margin-top: $ns * 3;
+}
+
+.btn-primary {
+  color: $bgc;
+  &:hover {
+    color: $wh;
+  }
+}
+
+.card-body {
+  color: $bgc;
+}
