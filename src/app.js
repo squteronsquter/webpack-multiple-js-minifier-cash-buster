@@ -44,5 +44,5 @@ addValuesButton.addEventListener('click', () => {
 });
 
 console.log('------------------------------------');
-console.log('All works fine!');
+console.log('All works fine! Loaded from app.js via main.js');
 console.log('------------------------------------');

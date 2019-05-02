@@ -32,3 +32,36 @@ img {
   background-color: $ored;
   border-color: $ored;
 }
+.btn-outline-success {
+  color: $bgc;
+  border-color: $bgc;
+  &:hover {
+    color: $wh;
+    background-color: $bgc;
+    border-color: $bgc;
+  }
+}
+.navbar-light .navbar-brand {
+  color: $bgc;
+  &:hover {
+    color: darken($bgc, 5%);
+  }
+}
+.navbar-light .navbar-nav .active > .nav-link {
+  color: $bgc;
+}
+.navbar-light .navbar-nav .show > .nav-link {
+  color: $bgc;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: lighten($bgc, 5%);
+  &:hover {
+    color: darken($bgc, 5%);
+  }
+}
+.dropdown-item {
+  color: lighten($bgc, 5%);
+  &:hover {
+    color: darken($bgc, 5%);
+  }
+}
