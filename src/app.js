@@ -42,3 +42,7 @@ addValuesButton.addEventListener('click', () => {
     handleAdditionError(inputs, parsedInputs);
   }
 });
+
+console.log('------------------------------------');
+console.log('All works fine!');
+console.log('------------------------------------');

@@ -1,7 +1,9 @@
 $primary: #8ed6fb;
-$bgc: #1b79bf;
+$bgc: #0b62a5;
 $ns: 10px;
 $wh: #ffffff;
+$ored: #eb3e2b;
+$dred: #b1352a;
 
 @import '~bootstrap/scss/bootstrap';
 
@@ -24,4 +26,9 @@ img {
 
 .card-body {
   color: $bgc;
+}
+.alert-danger {
+  color: $wh;
+  background-color: $ored;
+  border-color: $ored;
 }
