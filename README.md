@@ -1,13 +1,14 @@
 # Webpack 4 Demo
 
-This demo helps you compile and develop
-build a production versio of html websites with Sass and Javascript
+This demo helps you develop & build a production version of any html website Bootstrap with Sass and Bootstrap as well as custom Javascript.
 
-To reun developmen:
+This is based on a course by Colt Steele.
+
+To run development:
 
 `npm start`
 
-To build production version
+To build the production version:
 
 `npm run build`
 
